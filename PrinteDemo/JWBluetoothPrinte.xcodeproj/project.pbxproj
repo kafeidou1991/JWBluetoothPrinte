@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72FC6731EF37D680072BB96 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = B72FC6701EF37D680072BB96 /* UIImage+Bitmap.m */; };
+		B72FC6741EF37D680072BB96 /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B72FC6721EF37D680072BB96 /* UIWebView+UIImage.m */; };
+		B72FC6771EF3B1D50072BB96 /* JWPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = B72FC6761EF3B1D50072BB96 /* JWPrinter.m */; };
+		B75364DD1EF8C12C00B8EA9F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B75364DC1EF8C12C00B8EA9F /* MBProgressHUD.m */; };
+		B7FB026F1EF0D682007A2694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB026E1EF0D682007A2694 /* main.m */; };
+		B7FB02721EF0D682007A2694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB02711EF0D682007A2694 /* AppDelegate.m */; };
+		B7FB02751EF0D682007A2694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB02741EF0D682007A2694 /* ViewController.m */; };
+		B7FB02781EF0D682007A2694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FB02761EF0D682007A2694 /* Main.storyboard */; };
+		B7FB027A1EF0D682007A2694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FB02791EF0D682007A2694 /* Assets.xcassets */; };
+		B7FB027D1EF0D682007A2694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FB027B1EF0D682007A2694 /* LaunchScreen.storyboard */; };
+		B7FB02881EF0D683007A2694 /* JWBluetoothPrinteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB02871EF0D683007A2694 /* JWBluetoothPrinteTests.m */; };
+		B7FB02931EF0D683007A2694 /* JWBluetoothPrinteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB02921EF0D683007A2694 /* JWBluetoothPrinteUITests.m */; };
+		B7FB02A31EF0D7A4007A2694 /* JWBluetoothManage.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB02A21EF0D7A4007A2694 /* JWBluetoothManage.m */; };
+		B7FB02BC1EF1462C007A2694 /* ProgressShow.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB02BB1EF1462C007A2694 /* ProgressShow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7FB02841EF0D683007A2694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FB02621EF0D682007A2694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FB02691EF0D682007A2694;
+			remoteInfo = JWBluetoothPrinte;
+		};
+		B7FB028F1EF0D683007A2694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FB02621EF0D682007A2694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FB02691EF0D682007A2694;
+			remoteInfo = JWBluetoothPrinte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B72FC66F1EF37D680072BB96 /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		B72FC6701EF37D680072BB96 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		B72FC6711EF37D680072BB96 /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
+		B72FC6721EF37D680072BB96 /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
+		B72FC6751EF3B1D50072BB96 /* JWPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPrinter.h; sourceTree = "<group>"; };
+		B72FC6761EF3B1D50072BB96 /* JWPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPrinter.m; sourceTree = "<group>"; };
+		B75364DB1EF8C12C00B8EA9F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B75364DC1EF8C12C00B8EA9F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B7FB026A1EF0D682007A2694 /* JWBluetoothPrinte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWBluetoothPrinte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB026E1EF0D682007A2694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7FB02701EF0D682007A2694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7FB02711EF0D682007A2694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7FB02731EF0D682007A2694 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7FB02741EF0D682007A2694 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7FB02771EF0D682007A2694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7FB02791EF0D682007A2694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7FB027C1EF0D682007A2694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7FB027E1EF0D682007A2694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB02831EF0D683007A2694 /* JWBluetoothPrinteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWBluetoothPrinteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB02871EF0D683007A2694 /* JWBluetoothPrinteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWBluetoothPrinteTests.m; sourceTree = "<group>"; };
+		B7FB02891EF0D683007A2694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB028E1EF0D683007A2694 /* JWBluetoothPrinteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWBluetoothPrinteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB02921EF0D683007A2694 /* JWBluetoothPrinteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWBluetoothPrinteUITests.m; sourceTree = "<group>"; };
+		B7FB02941EF0D683007A2694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB02A11EF0D7A4007A2694 /* JWBluetoothManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBluetoothManage.h; sourceTree = "<group>"; };
+		B7FB02A21EF0D7A4007A2694 /* JWBluetoothManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWBluetoothManage.m; sourceTree = "<group>"; };
+		B7FB02A71EF0DCCF007A2694 /* JWBluetoothBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWBluetoothBlocks.h; sourceTree = "<group>"; };
+		B7FB02BA1EF1462C007A2694 /* ProgressShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressShow.h; sourceTree = "<group>"; };
+		B7FB02BB1EF1462C007A2694 /* ProgressShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressShow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7FB02671EF0D682007A2694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB02801EF0D683007A2694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB028B1EF0D683007A2694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7FB02611EF0D682007A2694 = {
+			isa = PBXGroup;
+			children = (
+				B7FB026C1EF0D682007A2694 /* JWBluetoothPrinte */,
+				B7FB02861EF0D683007A2694 /* JWBluetoothPrinteTests */,
+				B7FB02911EF0D683007A2694 /* JWBluetoothPrinteUITests */,
+				B7FB026B1EF0D682007A2694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7FB026B1EF0D682007A2694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB026A1EF0D682007A2694 /* JWBluetoothPrinte.app */,
+				B7FB02831EF0D683007A2694 /* JWBluetoothPrinteTests.xctest */,
+				B7FB028E1EF0D683007A2694 /* JWBluetoothPrinteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7FB026C1EF0D682007A2694 /* JWBluetoothPrinte */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB02701EF0D682007A2694 /* AppDelegate.h */,
+				B7FB02711EF0D682007A2694 /* AppDelegate.m */,
+				B7FB02731EF0D682007A2694 /* ViewController.h */,
+				B7FB02741EF0D682007A2694 /* ViewController.m */,
+				B7FB02A01EF0D6FF007A2694 /* BluetoothManage */,
+				B7FB02761EF0D682007A2694 /* Main.storyboard */,
+				B7FB02791EF0D682007A2694 /* Assets.xcassets */,
+				B7FB027B1EF0D682007A2694 /* LaunchScreen.storyboard */,
+				B7FB027E1EF0D682007A2694 /* Info.plist */,
+				B7FB026D1EF0D682007A2694 /* Supporting Files */,
+			);
+			path = JWBluetoothPrinte;
+			sourceTree = "<group>";
+		};
+		B7FB026D1EF0D682007A2694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB026E1EF0D682007A2694 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7FB02861EF0D683007A2694 /* JWBluetoothPrinteTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB02871EF0D683007A2694 /* JWBluetoothPrinteTests.m */,
+				B7FB02891EF0D683007A2694 /* Info.plist */,
+			);
+			path = JWBluetoothPrinteTests;
+			sourceTree = "<group>";
+		};
+		B7FB02911EF0D683007A2694 /* JWBluetoothPrinteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB02921EF0D683007A2694 /* JWBluetoothPrinteUITests.m */,
+				B7FB02941EF0D683007A2694 /* Info.plist */,
+			);
+			path = JWBluetoothPrinteUITests;
+			sourceTree = "<group>";
+		};
+		B7FB02A01EF0D6FF007A2694 /* BluetoothManage */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB02A71EF0DCCF007A2694 /* JWBluetoothBlocks.h */,
+				B7FB02A11EF0D7A4007A2694 /* JWBluetoothManage.h */,
+				B7FB02A21EF0D7A4007A2694 /* JWBluetoothManage.m */,
+				B72FC6751EF3B1D50072BB96 /* JWPrinter.h */,
+				B72FC6761EF3B1D50072BB96 /* JWPrinter.m */,
+				B72FC66F1EF37D680072BB96 /* UIImage+Bitmap.h */,
+				B72FC6701EF37D680072BB96 /* UIImage+Bitmap.m */,
+				B72FC6711EF37D680072BB96 /* UIWebView+UIImage.h */,
+				B72FC6721EF37D680072BB96 /* UIWebView+UIImage.m */,
+				B7FB02B31EF14162007A2694 /* JWProgressHUD */,
+			);
+			path = BluetoothManage;
+			sourceTree = "<group>";
+		};
+		B7FB02B31EF14162007A2694 /* JWProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B75364DB1EF8C12C00B8EA9F /* MBProgressHUD.h */,
+				B75364DC1EF8C12C00B8EA9F /* MBProgressHUD.m */,
+				B7FB02BA1EF1462C007A2694 /* ProgressShow.h */,
+				B7FB02BB1EF1462C007A2694 /* ProgressShow.m */,
+			);
+			path = JWProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7FB02691EF0D682007A2694 /* JWBluetoothPrinte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB02971EF0D683007A2694 /* Build configuration list for PBXNativeTarget "JWBluetoothPrinte" */;
+			buildPhases = (
+				B7FB02661EF0D682007A2694 /* Sources */,
+				B7FB02671EF0D682007A2694 /* Frameworks */,
+				B7FB02681EF0D682007A2694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWBluetoothPrinte;
+			productName = JWBluetoothPrinte;
+			productReference = B7FB026A1EF0D682007A2694 /* JWBluetoothPrinte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7FB02821EF0D683007A2694 /* JWBluetoothPrinteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB029A1EF0D683007A2694 /* Build configuration list for PBXNativeTarget "JWBluetoothPrinteTests" */;
+			buildPhases = (
+				B7FB027F1EF0D683007A2694 /* Sources */,
+				B7FB02801EF0D683007A2694 /* Frameworks */,
+				B7FB02811EF0D683007A2694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FB02851EF0D683007A2694 /* PBXTargetDependency */,
+			);
+			name = JWBluetoothPrinteTests;
+			productName = JWBluetoothPrinteTests;
+			productReference = B7FB02831EF0D683007A2694 /* JWBluetoothPrinteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7FB028D1EF0D683007A2694 /* JWBluetoothPrinteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB029D1EF0D683007A2694 /* Build configuration list for PBXNativeTarget "JWBluetoothPrinteUITests" */;
+			buildPhases = (
+				B7FB028A1EF0D683007A2694 /* Sources */,
+				B7FB028B1EF0D683007A2694 /* Frameworks */,
+				B7FB028C1EF0D683007A2694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FB02901EF0D683007A2694 /* PBXTargetDependency */,
+			);
+			name = JWBluetoothPrinteUITests;
+			productName = JWBluetoothPrinteUITests;
+			productReference = B7FB028E1EF0D683007A2694 /* JWBluetoothPrinteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7FB02621EF0D682007A2694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张竟巍";
+				TargetAttributes = {
+					B7FB02691EF0D682007A2694 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EBN232Z2Y7;
+						ProvisioningStyle = Automatic;
+					};
+					B7FB02821EF0D683007A2694 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EBN232Z2Y7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7FB02691EF0D682007A2694;
+					};
+					B7FB028D1EF0D683007A2694 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EBN232Z2Y7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7FB02691EF0D682007A2694;
+					};
+				};
+			};
+			buildConfigurationList = B7FB02651EF0D682007A2694 /* Build configuration list for PBXProject "JWBluetoothPrinte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7FB02611EF0D682007A2694;
+			productRefGroup = B7FB026B1EF0D682007A2694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7FB02691EF0D682007A2694 /* JWBluetoothPrinte */,
+				B7FB02821EF0D683007A2694 /* JWBluetoothPrinteTests */,
+				B7FB028D1EF0D683007A2694 /* JWBluetoothPrinteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7FB02681EF0D682007A2694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB027D1EF0D682007A2694 /* LaunchScreen.storyboard in Resources */,
+				B7FB027A1EF0D682007A2694 /* Assets.xcassets in Resources */,
+				B7FB02781EF0D682007A2694 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB02811EF0D683007A2694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB028C1EF0D683007A2694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7FB02661EF0D682007A2694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB02751EF0D682007A2694 /* ViewController.m in Sources */,
+				B7FB02BC1EF1462C007A2694 /* ProgressShow.m in Sources */,
+				B7FB02721EF0D682007A2694 /* AppDelegate.m in Sources */,
+				B72FC6741EF37D680072BB96 /* UIWebView+UIImage.m in Sources */,
+				B75364DD1EF8C12C00B8EA9F /* MBProgressHUD.m in Sources */,
+				B72FC6771EF3B1D50072BB96 /* JWPrinter.m in Sources */,
+				B72FC6731EF37D680072BB96 /* UIImage+Bitmap.m in Sources */,
+				B7FB02A31EF0D7A4007A2694 /* JWBluetoothManage.m in Sources */,
+				B7FB026F1EF0D682007A2694 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB027F1EF0D683007A2694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB02881EF0D683007A2694 /* JWBluetoothPrinteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB028A1EF0D683007A2694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB02931EF0D683007A2694 /* JWBluetoothPrinteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7FB02851EF0D683007A2694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FB02691EF0D682007A2694 /* JWBluetoothPrinte */;
+			targetProxy = B7FB02841EF0D683007A2694 /* PBXContainerItemProxy */;
+		};
+		B7FB02901EF0D683007A2694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FB02691EF0D682007A2694 /* JWBluetoothPrinte */;
+			targetProxy = B7FB028F1EF0D683007A2694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7FB02761EF0D682007A2694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7FB02771EF0D682007A2694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7FB027B1EF0D682007A2694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7FB027C1EF0D682007A2694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7FB02951EF0D683007A2694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7FB02961EF0D683007A2694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7FB02981EF0D683007A2694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EBN232Z2Y7;
+				INFOPLIST_FILE = JWBluetoothPrinte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app02.miaoyin.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7FB02991EF0D683007A2694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EBN232Z2Y7;
+				INFOPLIST_FILE = JWBluetoothPrinte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app02.miaoyin.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7FB029B1EF0D683007A2694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EBN232Z2Y7;
+				INFOPLIST_FILE = JWBluetoothPrinteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWBluetoothPrinteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWBluetoothPrinte.app/JWBluetoothPrinte";
+			};
+			name = Debug;
+		};
+		B7FB029C1EF0D683007A2694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EBN232Z2Y7;
+				INFOPLIST_FILE = JWBluetoothPrinteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWBluetoothPrinteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWBluetoothPrinte.app/JWBluetoothPrinte";
+			};
+			name = Release;
+		};
+		B7FB029E1EF0D683007A2694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EBN232Z2Y7;
+				INFOPLIST_FILE = JWBluetoothPrinteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWBluetoothPrinteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWBluetoothPrinte;
+			};
+			name = Debug;
+		};
+		B7FB029F1EF0D683007A2694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EBN232Z2Y7;
+				INFOPLIST_FILE = JWBluetoothPrinteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWBluetoothPrinteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWBluetoothPrinte;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7FB02651EF0D682007A2694 /* Build configuration list for PBXProject "JWBluetoothPrinte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB02951EF0D683007A2694 /* Debug */,
+				B7FB02961EF0D683007A2694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FB02971EF0D683007A2694 /* Build configuration list for PBXNativeTarget "JWBluetoothPrinte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB02981EF0D683007A2694 /* Debug */,
+				B7FB02991EF0D683007A2694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FB029A1EF0D683007A2694 /* Build configuration list for PBXNativeTarget "JWBluetoothPrinteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB029B1EF0D683007A2694 /* Debug */,
+				B7FB029C1EF0D683007A2694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FB029D1EF0D683007A2694 /* Build configuration list for PBXNativeTarget "JWBluetoothPrinteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB029E1EF0D683007A2694 /* Debug */,
+				B7FB029F1EF0D683007A2694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7FB02621EF0D682007A2694 /* Project object */;
+}
