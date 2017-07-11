@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JWBluetoothManage.h"
 
 @interface ViewController : UIViewController
 

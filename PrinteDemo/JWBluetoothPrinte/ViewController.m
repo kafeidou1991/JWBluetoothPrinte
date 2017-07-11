@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "JWBluetoothManage.h"
 
 #define WeakSelf __block __weak typeof(self)weakSelf = self;
-@interface ViewController ()<UITableViewDataSource,UITableViewDelegate>{
+@interface ViewController () <UITableViewDataSource,UITableViewDelegate>{
     JWBluetoothManage * manage;
 }
 @property (nonatomic, strong) UITableView * tableView;
